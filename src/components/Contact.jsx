@@ -22,7 +22,7 @@ export default function Contact() {
       <Reveal className="contact">
         <div className="contact-copy">
           <h2 className="contact-title">Have a product that needs to sell?</h2>
-          <p className="lead">Based in Nairobi. Remote, hybrid or on-site, and comfortable working across US time zones.</p>
+          <p className="lead">Remote, hybrid or on-site, and comfortable working across US time zones.</p>
           <p className="contact-email">
             <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
             <button type="button" className="copy" onClick={copyEmail}>
